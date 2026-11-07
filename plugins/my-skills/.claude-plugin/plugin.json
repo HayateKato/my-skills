@@ -1,4 +1,5 @@
 {
   "name": "my-skills",
-  "description": "AI agent skills"
+  "description": "AI agent skills",
+  "version": "0.1.1"
 }

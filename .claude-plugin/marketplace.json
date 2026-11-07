@@ -1,13 +1,12 @@
 {
   "name": "my-marketplace",
-  "owner": { "name": "HayateKato" },
+  "owner": {
+    "name": "HayateKato"
+  },
   "plugins": [
     {
       "name": "my-skills",
-      "source": {
-        "source": "github",
-        "repo": "HayateKato/my-skills"
-      },
+      "source": "./plugins/my-skills",
       "description": "AI agent skills"
     }
   ]
