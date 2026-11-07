@@ -20,16 +20,19 @@ my-skills/
 
 ## 前提
 
-- Claude Code がインストールされている。
+以下がローカルにインストールされている。
+
+- Claude Code
+- Claude デスクトップアプリ
 
 ## 導入手順
 
 ### ローカル（編集・push する環境）
 
-1. リポジトリを書き込みできる形で clone する。
+1. リポジトリを clone する。
 
    ```bash
-   git clone git@github.com:HayateKato/my-skills.git ~/my-skills
+   git clone https://github.com/HayateKato/my-skills.git ~/my-skills
    ```
 
 2. プラグインを入れる。
@@ -56,7 +59,7 @@ my-skills/
 
 ### リモート（SSH 先）
 
-1. リポジトリを HTTPS で clone する。
+1. リポジトリを clone する。
 
    ```bash
    git clone https://github.com/HayateKato/my-skills.git ~/my-skills
