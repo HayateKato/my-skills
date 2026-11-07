@@ -78,6 +78,14 @@ my-skills/
    ( git -C "$HOME/my-skills" pull --ff-only -q >/dev/null 2>&1 & )
    ```
 
+   自動で pull されたか確認するため、現在のセッションで git ファイルの最終更新日時を確認する。
+
+   ```bash
+   ls -l ~/my-skills/.git/FETCH_HEAD
+   ```
+
+   その後、SSHログインし直して再度上記コマンドを実行し、最終更新日時が先程の日時よりも進んでいれば完了である。
+
 ## 更新手順
 
 スキルと `CLAUDE.md` はセッション開始時に読み込まれる。
